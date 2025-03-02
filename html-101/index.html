@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table border=1>
+        <caption>Customer Information</caption>
+        <thead>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Gender</th>
+                    <th>Email</th>
+                </tr>
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fortune</td>
+                <td>Niama</td>
+                <td>Male</td>
+                <td>fortune_niama@outlook.com</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Craft</td>
+                <td>Male</td>
+                <td>craft.john@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Leslie</td>
+                <td>Ryan</td>
+                <td>Female</td>
+                <td>leslie-ryan12@yahoo.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr/>
+    <form>
+        <div>
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text" />
+        </div>
+        <div>
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="text" />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" />
+        </div>
+        <div>
+            <label for="cb">Monday</label>
+            <input id="cb" type="checkbox" name="courseDay" value="Monday">
+            <label for="cb">Tuesday</label>
+            <input id="cb" type="checkbox" name="courseDay" value="Tuesday">
+            <label for="cb">Wednesday</label>
+            <input id="cb" type="checkbox" name="courseDay" value="Wednesday">
+            <label for="cb">Thursday</label>
+            <input id="cb" type="checkbox" name="courseDay" value="Thursday">
+            <label for="cb">Friday</label>
+            <input id="cb" type="checkbox" name="courseDay" value="Friday">
+        </div>
+        <div>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender" value="Male">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="gender" value="Female">
+        </div>
+        <div>
+            <label for="course">Course</label>
+            <select name="course" id="course">
+                <option value="sql">SQL</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="c++">C++</option>
+            </select>
+        </div>
+        <button>
+            Save
+        </button>
+    </form>
+    <hr/>
+</body>
+</html>
