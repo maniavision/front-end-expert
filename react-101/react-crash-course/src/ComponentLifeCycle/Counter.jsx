@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 
 // Component life cycle phases: (1) mount, (2) update and (3) umount
 export default function Counter() {
@@ -15,11 +15,15 @@ export default function Counter() {
 
     useEffect(() => {
         console.log('Mount || Update Count'); // Will only display when component mount or count is updated
-    }, [count]);
+    }, [count]); // Dependency array
 
     useEffect(() => {
         return () => console.log('Unmount'); // Will display when component unmount
     }, []);
+
+    useLayoutEffect(() => {
+
+    }, []); // run synchroniously 
 
     return (
         <div>
