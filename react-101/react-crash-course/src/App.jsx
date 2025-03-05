@@ -1,15 +1,13 @@
 import './App.css'
-import ComponentLifeCycleApp from './ComponentLifeCycle/ComponentLifeCycleApp'
-import ImperativeReactApp from './ImperativeReact/ImperactiveReactApp'
-import PropsApp from './Props/PropsApp'
-import RefsApp from './Refs/RefsApp'
-import StateApp from './State/StateApp'
+import CustomHooksApp from './CustomHooks/CustomHooksApp'
+import PerformanceApp from './Performance/PerformanceApp'
+import PortalsApp from './Portals/PortalsApp'
 
 function App() {
 
   return (
     <>
-      <ImperativeReactApp />
+      <PortalsApp />
     </>
   )
 }

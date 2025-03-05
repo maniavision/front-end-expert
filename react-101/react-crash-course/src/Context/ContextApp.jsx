@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Profile } from "./Profile";
 import { UserContext } from "./UserContext";
 
+
+// Context is used to prevent props drilling
 const conner = {
     name: 'Conner',
     course: 'FrontendExpert'
